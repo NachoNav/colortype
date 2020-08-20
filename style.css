@@ -1,0 +1,31 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea {
+    height: 100%;
+    width: 100%;
+    padding-left: 2%;
+
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    font-size: 13vw;
+    font-weight: 500;
+    line-height: 0.98;
+
+    border: none;
+}
+
+textarea:focus {
+    outline-width: 0;
+}
